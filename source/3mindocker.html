@@ -7,7 +7,7 @@
       @import url(https://fonts.googleapis.com/css?family=Fira+Sans);
       @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
       @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
-      @import url(source/static/css/static.css);
+      @import url(./static/css/static.css);
 
 
       body { font-family: 'Droid Serif';
@@ -24,20 +24,16 @@
   </head>
   <body>
     <textarea id="source">
-      name: inverse
-      layout: true
-      class: center, middle, inverse
-      ---
-      template: inverse
 
-      # [Docker en 3 minutos](./source/3mindocker.html)
-      # [Docker: curso completo](./source/docker.html)
+
 
     </textarea>
-    <script src="source/static/js/remark.js">
+    <script src="static/js/remark.js">
     </script>
     <script>
-      var slideshow = remark.create();
+      var slideshow = remark.create({
+      sourceUrl: '3mindocker.md'
+      });
     </script>
   </body>
 </html>

@@ -12,9 +12,14 @@ body {
   .footnote {
     position: absolute;
     bottom: 3em;
+    color: #f0f00a;
+  }
+  .footnote strong{
+    color: #f0f00a;
   }
   li p { line-height: 1.25em; }
   .red { color: #fa0000; }
+  .yellow { color: #f0f00a; }
   .green { color:rgb(55, 241, 86);}
   strong { color:rgb(55, 241, 86); }
   .large { font-size: 2em; }
