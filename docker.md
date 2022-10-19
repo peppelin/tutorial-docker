@@ -34,7 +34,7 @@ Nos descargaremos una imagen de docker.
 ```terminal
 docker pull nginx:latest
 ```
-* **ubuntu** --> imagen a descargar
+* **nginx** --> imagen a descargar
 * **latest** --> version de la imagen
 
 En la medida de lo posible, **nunca usar latest** y especificar la version que queremos.
