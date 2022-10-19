@@ -42,7 +42,7 @@ En la medida de lo posible, **nunca usar latest** y especificar la version que q
 docker pull nginx:stable-alpine
 ```
 
-.footnote[.red[ Este comando solo descarga uan imagen, no ejecuta nada.]]
+.footnote[.red[ Este comando solo descarga una imagen, no ejecuta nada.]]
 
 
 ---
@@ -85,7 +85,7 @@ $ docker exec -ti web /bin/bash
 root@d4632291269b:/#
 ```
 Ejecutaremos el comando **/bin/bash** dentro del contenedor **web**.
-* --ti indica que ejecutaremos una shell y que la atache al terminal.
+* **--ti** indica que ejecutaremos una shell y que la atache al terminal.
 
 ---
 name: basic
